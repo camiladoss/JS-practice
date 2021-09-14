@@ -107,7 +107,6 @@ function moves(moves) {
 
   moves.slice(0, 3).forEach((move) => {
     //console.log("movimiento", move.move);
-
     const moveContainer = document.createElement("move_container");
     moveContainer.classList.add("move_container");
 
@@ -134,7 +133,6 @@ function abilities(abilities) {
 
   abilities.slice(0, 3).forEach((ability) => {
     //console.log("habilidad", ability.ability);
-
     const abiContainer = document.createElement("div");
     abiContainer.classList.add("abi_container");
 
@@ -147,6 +145,7 @@ function abilities(abilities) {
 
   return abilitiesContainer;
 }
+
 searchButton.addEventListener("click", () => {
   fetchPokemon(search.value);
   removeChildNodes(pokeContainer);

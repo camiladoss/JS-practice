@@ -1,8 +1,8 @@
 body {
     background: rgb(10,40,95);
-    background: radial-gradient(circle, rgba(10,40,95,0.9475140397956058) 1%, rgba(0,117,190,1) 100%);    text-align: center;
+    background: radial-gradient(circle, rgba(10,40,95,0.9475140397956058) 1%, rgba(0,117,190,1) 100%);    
+    text-align: center;
     margin-top: 1rem;
-    
 }
 
 h1 {
@@ -23,7 +23,6 @@ h2 {
 p {
     margin-top: 1rem;
     margin-bottom: 1rem;
-
 }
 
 .search-container {
@@ -45,12 +44,10 @@ input:focus {
 .stat_name{
     color: #FB1B1B;
     font-weight: bold;
-
 }
 
 #subtitle {
     color: #FFCC00;
-
 }
 
 .my_image {
@@ -67,7 +64,6 @@ input:focus {
 
 #search {
     margin-left: 1rem;
-    
 }
 
 #search_button {

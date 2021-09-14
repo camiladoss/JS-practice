@@ -1,0 +1,128 @@
+body {
+    background: rgb(10,40,95);
+    background: radial-gradient(circle, rgba(10,40,95,0.9475140397956058) 1%, rgba(0,117,190,1) 100%);    text-align: center;
+    margin-top: 1rem;
+    
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #FFCC00;
+}
+
+h2 {
+    background-color: #30a7d7;
+    color: #FFCC00;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.search-container {
+    display: flex-box;
+    margin: auto;
+    width: 80%;
+}
+
+input:focus {
+    border: 1px solid #22CBA8;
+    box-shadow: none!important;
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.stat_name{
+    color: #FB1B1B;
+    font-weight: bold;
+
+}
+
+#subtitle {
+    color: #FFCC00;
+
+}
+
+.my_image {
+    width: 150px;
+}
+
+
+.img_container {
+    background-image: url("./blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1rem;
+}
+
+#search {
+    margin-left: 1rem;
+    
+}
+
+#search_button {
+    border-radius: .5rem;
+    margin: 1rem;
+    cursor: pointer
+}
+
+.progress {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.name {
+    background-color: #30a7d7;
+    border-radius: .4rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.move_container, .abi_container {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.poke_container {
+    display: flexbox;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.card_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card.my_card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 12px 12px 2px 1px #D5A100;
+}

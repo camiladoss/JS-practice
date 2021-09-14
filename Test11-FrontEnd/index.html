@@ -30,7 +30,18 @@
     </div>
 
     <div class="poke_container"></div>
-    <!-- JavaScript Bundle with Popper -->
+    <audio autoplay id="myaudio">
+        <source src="audio/Pokemon Song.mp3">
+    </audio>
+      
+      <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.2;
+      </script>
+      <footer>
+        <p id="author">Author: Camila Dossman<br>
+        <a href="https://pokeapi.co/" target="_blank">Pokemon API</a></p>
+      </footer>
     <script src="main.js"></script>
 </body>
 </html>
